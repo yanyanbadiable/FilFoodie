@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4da456d6c4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <title>FilFoodie</title>
+</head>
+<body>
+    <div class="all-container">
+            <header>
+                <div class="logo">
+                    <img src="images/Screenshot_2023-11-14_222521-removebg-preview.png" alt="logo">
+                </div>
+                <div class="searchbar">
+                    <div class="search-input">
+                        <input type="search" id="search-id" placeholder="Search here...">
+                    </div>    
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" ></i>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Favorites</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="logout-burger-icon">
+                    <div class="burger-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="logout-icon">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section id="first-section">
+                    <div class="hero-section">
+                        <div class="text-container">
+                            <h1>Unleash the Flavors,</h1>
+                            <h3>Discover the Stories:</h3>
+                            <span>Dive into the World of Filipino Cuisine</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/eiliv-aceron-Q-5eUQwEqm0-unsplash.jpg" alt="Filipino Food">
+                        </div>
+                    </div>
+                    <div class="category-container">
+                        <h1>Browse by Categories</h1>
+                        <br>
+                        <div>
+                            <ul class="category-items">
+                                <li id="all-recipe-btn"><h3>All Recipe </h3></li>
+                                <li id="chicken-btn"><h3>By Course </h3></li>
+                                <li><h3>By Ingredients </h3></li>
+                                <li><h3>By Method </h3></li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                </section>
+                <section id="category-section">
+                    <div class="popular-container">
+                        <h1>Popular Recipes</h1>
+                        <br>
+                        <div class="card-container">
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/adobo.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Adobo</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/tinolang-manok.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Tinolang Manok</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/Sinigang-na-Baboy.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Sinigang na Baboy</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/kaldereta.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Kaldereta</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>    
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/lumpia.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Lumpia</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/pansit.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Pansit</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/pakbet.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Pakbet</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-1">
+                                        <div class="img-container">
+                                            <img src="images/Kare-Kare.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h3>Kare-Kare</h3>
+                                            <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>         
+                            </div>
+                    </div>    
+                    <div class="recommended-container">
+                            <h1>Recommended Recipes</h1><br>
+                            <div class="card-container">
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/ginataang-hipon.jpg" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h3>Ginataang Hipon</h3>
+                                                <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/beef-mechado.jpg" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h3>Beef Mechado</h3>
+                                                <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/chicken-afritada.jpg" alt="">
+                                            </div>          
+                                            <div class="content">
+                                                <h3>Chicken Afritada</h3>
+                                                <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/embutido.jpg" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h3>Embutido</h3>
+                                                <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/pork-sisig.jpg" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h3>Pork Sisig</h3>
+                                                <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/pork-menudo.jpg" alt="">
+                                            </div>  
+                                            <div class="content">
+                                                <h3>Pork Menudo</h3>
+                                                <i id = "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/pork-bbq.jpg" alt="">
+                                            </div>
+                                            
+                                            <div class="content">
+                                                <h3>Pork Barbeque</h3>
+                                                <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="img-container">
+                                                <img src="images/paksiw-na-bangus.jpg" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h3>Paksiw na Bangus</h3>
+                                                <i id= "changeIcon" class="fa-regular fa-heart"></i>
+                                            </div>
+                                        </div>
+                            </div>
+                    </div>      
+                </section>
+                <div class="button">
+                    <button>View More</button>
+                </div>
+            </main>  
+            <footer>
+                <div class="detail">
+                    <div class="logo">
+                        <img src="images/Screenshot_2023-11-14_222521-removebg-preview.png" alt="logo">
+                    </div>
+                    <p>FilFoodie is a filipino recipe website <br> with a wide variety of Filipino <br> delicious recipes.</p>
+                </div>
+                <div class="quicklinks">
+                    <h1>Quick Links</h1>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Favorites</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="socialmedia-links">
+                    <h1>Social Media Links</h1><br>
+                    <div class="icon-container">
+                      <a href="https://wwww.facebook.com/rhaijhain.orogan.7">
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        </div>  
+                      </a> 
+                      <a href="https://wwww.facebook.com/rhaijhain.orogan.7">
+                        <div class="icon">
+                            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>                
+                        </div>
+                      </a>
+                       
+                      <a href="https://wwww.facebook.com/rhaijhain.orogan.7">
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                        </div>
+                      </a>
+                       <a href="https://wwww.facebook.com/jenyang143">
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                        </div>              
+                       </a>
+                        
+                    </div>
+                </div>
+            </footer>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
